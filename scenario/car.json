@@ -1,0 +1,15 @@
+{
+  "scenarios": {
+    "constant_arrival_rate_scenario": {
+      "executor": "constant-arrival-rate",
+      "rate": 10,
+      "timeUnit": "1s",
+      "duration": "1m",
+      "preAllocatedVUs": 20,
+      "maxVUs": 50,
+      "exec": "car_test"
+    }
+  },
+  "vus": 0,
+  "duration": "1m"
+}
